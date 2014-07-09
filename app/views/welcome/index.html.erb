@@ -1,0 +1,47 @@
+<div class="container "><div class="sitewrapd">
+<h3>EducationYP&nbsp;<small>College and course listing</small></h3>
+<!--<header><h2 ><i>ED</i><span style="color:#76C3BD;">ucation</span><sup style="font-size:25px;color:yellow;background-color:#000;"><b>Y<sub style="font-size:18px;">ellow</sub>P<sub style="font-size:18px;">age</sub></b></sup></h2></header>-->
+<hr>
+
+<form id="nl-form" class="nl-form" style="margin-top:90px;" action="show">
+<p>I want to study 
+<select>
+<option value="1" selected>any course</option>
+<option value="2">Engineering</option>
+<option value="3">Management & Business</option>
+<option value="4">Medical & Healthcare</option>
+<option value="5">Architecture</option>
+<option value="6">Commerce</option>
+<option value="7">Science</option>
+<option value="8">Arts & Humanities</option>
+<option value="9">Languages & Teaching</option>
+<option value="10">Pharmacy</option>
+<option value="11">Law</option>
+<option value="12">Hotel Management,Aviation & Travel</option>
+<option value="13">Computers</option>
+<option value="14">Mass Comm. & Media</option>
+<option value="15">Fashion & Design</option>
+</select>
+at  
+<select>
+<option value="1" selected>any college</option>
+<option value="2">a govt. college</option>
+<option value="3">a private institute</option>
+<option value="4">a deemed university</option>
+</select>
+in <input  type="text" value="" placeholder="any place" data-subline="For example: <em>Karnataka</em> or <em>New Delhi</em>"/>.</p>
+<br>
+<div class="nl-submit-wrap">
+<button class="nl-submit" type="submit" target="">Find me the college</button>
+</div>
+<div class="nl-overlay"></div>
+</form>
+
+<hr>
+<p class="pull-right">&copy;&nbsp;<%= Time.now.year %>&nbsp;Prajuctone Pvt. Ltd </p>
+</div>
+</div>
+<script>
+var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+</script>
+

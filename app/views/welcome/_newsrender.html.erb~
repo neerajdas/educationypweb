@@ -1,0 +1,48 @@
+<!--<ul id="myTab" class="nav nav-pills " role="tablist">
+      <li class="active"><a href="#exam" role="tab" data-toggle="tab">Exam Dates</a></li>
+      <li><a href="#news" role="tab" data-toggle="tab">News</a></li>
+      <li class="dropdown">
+        <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">Notice<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+          <li><a href="#result" tabindex="-1" role="tab" data-toggle="tab">Results info</a></li>
+          <li><a href="#admission" tabindex="-1" role="tab" data-toggle="tab">Admissions info</a></li>
+        </ul>
+      </li>
+    </ul><hr>
+    <div id="myTabContent" class="tab-content">
+      <div class="tab-pane fade in active" id="exam">
+        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+      </div>
+      <div class="tab-pane fade" id="news">
+        <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+      </div>
+      <div class="tab-pane fade" id="result">
+        <p>Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony.</p>
+      </div>
+      <div class="tab-pane fade" id="admission">
+        <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater.</p>
+      </div>
+    </div>-->
+<div id="myTab" class="btn-group btn-group-justified" role="tablist">
+<div class="btn-group">
+<a href="#exam" role="tab" data-toggle="tab" type="button" class="btn btn-default">Exams</a>
+</div>
+<div class="btn-group">
+<a href="#news" role="tab" data-toggle="tab" type="button" class="btn btn-default">News</a>
+</div>
+<div class="btn-group">
+<a href="#notice" role="tab" data-toggle="tab" class="btn btn-default" type="button">Notice</a>
+</div>
+</div>
+<br>
+<div id="myTabContent" class="tab-content">
+<div class="tab-pane fade in active" id="exam">
+<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg.voluptate nisi qui.</p>
+</div>
+<div class="tab-pane fade" id="news">
+<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next echo park.</p>
+</div>
+<div class="tab-pane fade" id="notice">
+<p>Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony.</p>
+</div>
+</div>

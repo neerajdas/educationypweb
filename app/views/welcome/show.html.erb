@@ -1,0 +1,82 @@
+<style>
+#sidebar.affix-top {
+position: static;
+margin-top:30px;
+width:300px;
+}
+#sidebar.affix {
+position: fixed;
+top:30px;
+width:300px;
+}
+}
+#sidebar li.active {
+border:0 #eee solid;
+border-right-width:4px;
+}
+.blue{
+background-color:#428BCA;
+color:#fff;
+
+}
+</style>
+<!-- Begin Body -->
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-3 ">
+<ul class="list-group" id="sidebar">
+<li class="list-group-item active blue">
+<h4>EducationYP<br><h5>College and course listing</h5></h4>
+<div class="form-group input-group">
+<input type="text" class="form-control" placeholder="Search">
+<span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+</div>
+</li>
+<ol class="breadcrumb">
+<li><a href="#">Home</a></li>
+<li><a href="#">Search</a></li>
+<li class="active">Result</li>
+</ol>
+<li class="list-group-item">
+<span class="badge">24</span>
+Some Search result
+</li>
+<li class="list-group-item">
+<span class="badge">10</span>
+Some search result 
+</li>
+<li class="list-group-item">
+<span class="badge">3</span>
+Some search result
+</li>
+</ul>
+<li class="list-group-item">
+<%= render 'welcome/newsrender'%>    
+</li>
+<li class="list-group-item">
+<p>&copy;&nbsp;<%= Time.now.year %>&nbsp;Prajuctone Pvt. Ltd.  </p>
+</li>
+</div>  
+<div class="col-md-9">
+<%= render 'welcome/results'%>
+</div>  
+</div>
+</div>
+<script>
+$('#sidebar').affix({
+offset: {
+top: 245
+}
+});
+
+var $body   = $(document.body);
+var navHeight = $('.navbar').outerHeight(true) + 10;
+
+$body.scrollspy({
+target: '#leftCol',
+offset: navHeight
+});
+</script>
+
+
+
